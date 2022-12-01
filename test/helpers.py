@@ -10,6 +10,8 @@ from unittest.mock import Mock
 from snowflake.connector.compat import OK
 
 
+
+
 def create_mock_response(status_code: int) -> Mock:
     """Create a Mock "Response" with a given status code. See `test_result_batch.py` for examples.
     Args:
